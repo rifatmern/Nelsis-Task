@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.a4-page {
+    width: 297mm;
+    min-height: 297mm;
+    padding: 20mm;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: relative;
+}
+
+.bar-title {
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 5px;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.school-name {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.school-address {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.student-info-container {
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.student-info {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+.info-list {
+    flex: 1;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.grading-table {
+    width: 30%;
+    border-collapse: collapse;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+}
+
+.grading-table th,
+.grading-table td {
+    padding: 4px 14px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.grading-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.grading-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.grading-table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.grading-table td {
+    font-size: 14px;
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.results-table th,
+.results-table td {
+    padding: 12px 18px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.results-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.results-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.results-table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.results-table td {
+    font-size: 14px;
+}
+
+.results-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.results-table table td {
+    border: 1px solid #ccc;
+    padding: 6px 8px;
+}
+
+.results-table table tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.results-table table tr:last-child {
+    border-bottom: none;
+}

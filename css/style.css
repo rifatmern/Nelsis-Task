@@ -35,7 +35,7 @@ body {
 
 .a4-page {
     width: 297mm;
-    min-height: 297mm;
+    min-height: 210mm;
     padding: 20mm;
     margin: auto;
     background: white;
@@ -50,20 +50,20 @@ body {
     border: 2px solid black;
     padding: 5px;
     width: 30%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .school-name {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .school-address {
     text-align: center;
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .student-info-container {
@@ -99,7 +99,7 @@ li {
     border-collapse: collapse;
     position: absolute;
     right: 40px;
-    top: 10px;
+    top: 5px;
 }
 
 .grading-table th,
@@ -154,7 +154,7 @@ li {
 }
 
 .results-table td {
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .results-table table {

@@ -71,7 +71,7 @@ body {
     display: flex;
     justify-content: start;
     align-items: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .student-info {
@@ -99,7 +99,7 @@ li {
     border-collapse: collapse;
     position: absolute;
     right: 40px;
-    top: 5px;
+    top: 30px;
 }
 
 .grading-table th,
@@ -123,14 +123,14 @@ li {
 }
 
 .grading-table td {
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .results-table {
     width: 100%;
     border-collapse: collapse;
     border: 1px solid #ccc;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .results-table th,
